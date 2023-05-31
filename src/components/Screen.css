@@ -1,0 +1,15 @@
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 20%;
+  }
+  
+  .screen span {
+    font-size: 70px; /* Set an initial font size */
+    white-space: nowrap; /* Prevent line breaks */
+    overflow: hidden; /* Hide overflowing text */
+    text-overflow: ellipsis; /* Show ellipsis for long text */
+  }
+  
